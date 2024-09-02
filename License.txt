@@ -9,7 +9,7 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-1. Attribution: Users of the Software must display and include either the full
+1. Attribution: Users of the Software must display and include both the full
 name of the original author, Varun Venkatadri, and the original author's pseudonym,
 "VVK-dev", in all derived works and related documentation.
 
