@@ -1,0 +1,10 @@
+The Venk Algorithm:
+
+In a complete graph, if edge distances between neighboring nodes are unknown,
+but every node's total distance from a specific node is known, where total distance is the
+sum of edge lengths in the shortest path from a node to said specific node, let the 
+specific node be 'end node'. 
+
+Then, the shortest path between any node in the graph and the end node, is formed by 
+traversing from the current node to the neighbouring node with the shortest total distance
+to the end node, until the end node is reached. 
