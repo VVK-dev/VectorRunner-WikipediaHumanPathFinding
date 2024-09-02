@@ -68,5 +68,3 @@ Additional Notes:
 
 NOTE 1: Batching the embeddings might be useful, however to my knowledge, the way OpenAI has currently implemented the feature requires constantly writing to and reading from a file which may reduce any performance gain from batching. 
 The file I/O cannot be done asynchronously or on a different thread, as only once the links are written to a file can they be then sent to get embeddings as a batch. Until the embeddings have been retreived, the program cannot progress.
-
-test
