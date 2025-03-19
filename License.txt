@@ -1,6 +1,6 @@
 License
 
-Copyright (c) 2023-2024 Varun Venkatadri (also known as VVK-dev)
+Copyright (c) 2023-2024 Varun Venkatadri (also known as VVk-dev)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
