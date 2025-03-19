@@ -1,4 +1,4 @@
-Varun Venkatadri is the author and owner of all the code and concepts in this repository.
+Varun Venkatadri (pseudonym VVk-dev) is the author and owner of all the code and concepts in this repository.
 
 This is a program that I created originially as a Wikipedia speedrunning program, but it evolved into a program to emulate human path-finding/way-finding within Wikipedia Speedrunning.
 
