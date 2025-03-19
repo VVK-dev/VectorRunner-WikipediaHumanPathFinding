@@ -62,9 +62,9 @@ text-embedding-3-small with 1536 dimensional vectors.
 I've also made it so that as the program runs, it will store and keep vectors in the database between executions and thus avoid repeatedly getting the vectors for the same data.
 
 
-Additional Notes:
+<u> Additional Notes:</u>
 
-NOTE 1: Batching the embeddings might be useful, however to my knowledge, the way OpenAI has currently implemented the feature requires constantly writing to and reading from a file which may reduce any performance gain from batching. 
+- NOTE 1: Batching the embeddings might be useful, however to my knowledge, the way OpenAI has currently implemented the feature requires constantly writing to and reading from a file which may reduce any performance gain from batching. 
 The file I/O cannot be done asynchronously or on a different thread, as only once the links are written to a file can they be then sent to get embeddings as a batch. Until the embeddings have been retreived, the program cannot progress.
 
-NOTE 2: Currently, the program doesn't function as intended. The general concept and algorithm work fine, but the program unitentionally uses links in the 'External Links' template in wiki pages. This is strictly not allowed in Wikipedia Speedrunning, but I haven't been able to find a way to restrict the program such that it doesn't use that section.
+- NOTE 2: Currently, the program doesn't function as intended. The general concept and algorithm work fine, but the program unitentionally uses links in the 'External Links' template in wiki pages. This is strictly not allowed in Wikipedia Speedrunning, but I haven't been able to find a way to restrict the program such that it doesn't use that section.
