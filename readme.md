@@ -1,21 +1,19 @@
-Hi! I'm Varun Venkatadri, the author and owner of all the code and concepts in this repository.
+Varun Venkatadri is the author and owner of all the code and concepts in this repository.
 
-This is a Wikipedia Speedrunning Program I call VectorRunner.
+This is a program that I created originially as a Wikipedia speedrunning program, but it evolved into a program to emulate human path-finding/way-finding within Wikipedia Speedrunning.
 
 Wikipedia Speedrunning is a game that revolves around getting from one wikipedia article to another via only
-clicking on the links in the article that lead to another wikipedia page. The one who can get to the final page the in the least number of links in between wins!
+clicking on the links in the article that lead to another wikipedia page. The one who can get to the final page the in the least number of links in between wins.
 
 For example, with a starting page of Apple and the end goal of Genghis Khan, we can click on the link for the wikipedia page for Central Asia in the first paragraph of the Apple article. Then we click on Mongolia in the 
-Central Asia article and then Genghis Khan. We've reached the end goal in 3 clicks, and our route is Apple->
-Central Asia -> Mongolia -> Genghis Khan.
+Central Asia article and then Genghis Khan. We've reached the end goal in 3 clicks, and our route is Apple-> Central Asia -> Mongolia -> Genghis Khan.
 
-Now, if we were competing with someone and they somehow got from Apple to Genghis Khan in 2 clicks, they would
-have won.
+Now, if we were competing with someone and they somehow got from Apple to Genghis Khan in 2 clicks, they would have won.
 
 That's how Wikipedia Speedrunning works. Any links that lead to non-wikipedia articles are not allowed, nor
 are any links in the 'See Also' and 'References' sections.
 
-Now, I'm going to talk about how I've implemented VectorRunner to do wikipedia speedrunning.
+- How the process of Wikipedia speedrunning has been implemented in this program:
 
 This program uses vector embeddings. I won't explain how they work here, if you wish to know more
 I suggest you watch some videos or read up on it - its quite fascinating.
@@ -24,7 +22,7 @@ The way VectorRunner works is that it gets all the links on a wiki page, then ge
 on until it reaches the end goal page. 
 
 I've thought about this whole process graphically - as in the starting page and ending pages are nodes in a graph, and the program has to map out a route between them. When I initially looked at it this way, my first
-thought was to use Dijkstra's algorithm or some modified version of it to traverse through the graph to find the shortest route. Doing a breadth-first or depth-first search seemed unreasonable as the graph in this process
+thought was to modify Dijkstra's algorithm to traverse through such a graph to find the shortest route. Doing a breadth-first or depth-first search seemed unreasonable as the graph in this process
 essentially doesn't exist until the search algorithm runs.
 
 The reason why I say this is because I am not using WikiData nor do I intend to map out the entirety of wikipedia myself, so the graph in this case is what I call an 'in-building' graph. In such a case, the graph
