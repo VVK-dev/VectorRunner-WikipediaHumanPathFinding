@@ -3,7 +3,7 @@ Varun Venkatadri (pseudonym VVk-dev) is the author and owner of all the code and
 This is a program that I created originially as a Wikipedia speedrunning program, but it evolved into a program to emulate human path-finding/way-finding within Wikipedia Speedrunning.
 
 Wikipedia Speedrunning is a game that revolves around getting from one wikipedia article to another via only
-clicking on the links in the article that lead to another wikipedia page. The one who can get to the final page the in the least number of links in between wins.
+clicking on the links in the article that lead to another wikipedia page. When played with multiple people, the person who can get to the final page the with the least number of links in between wins.
 
 For example, with a starting page of Apple and the end goal of Genghis Khan, we can click on the link for the wikipedia page for Central Asia in the first paragraph of the Apple article. Then we click on Mongolia in the 
 Central Asia article and then Genghis Khan. We've reached the end goal in 3 clicks, and our route is Apple-> Central Asia -> Mongolia -> Genghis Khan.
